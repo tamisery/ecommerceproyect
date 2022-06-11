@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="regist.css">
     
     <title>Document</title>
 </head>
@@ -16,20 +16,17 @@
           <li><a href="shop.html">Shop</a></li>
         </ul>
     </nav>
-    <form action="">
+    <form action="" id="form" class="formu">
         <h1>
             Registrarse
         </h1>
-        <input type="text" name="usuario" placeholder="Nombre completo" id="nombre">
-          <input type="text" name="usuario" placeholder="Crear usuario" id="usuario">
-          <input type="password" name="contraseña" placeholder="Crear contraseña" id="contraseña">
-          <input type="password" name="contraseña" placeholder="Repetir contraseña" id="contraseña">  
-
-        
-        <input type="button" value="iniciar sesion" onclick="login()">
+        <input type="text" name="name" placeholder="Nombre completo" id="name">
+          <input type="text" name="email" placeholder="Email" id="email">
+          <input type="password" name="password" placeholder="Crear contraseña" id="password">  
+          <button type="submit" onclick="signup()">Registrarse</button>
     </form>
     
 
-    <script src="login.js"></script>
+    <script src="sesion.js"></script>
 </body>
 </html>

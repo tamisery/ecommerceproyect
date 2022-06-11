@@ -1,9 +1,9 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login.css">
     
     <title>Document</title>
 </head>
@@ -12,20 +12,20 @@
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="registrarse.html">Registrarse</a></li>
-          <li><a href="#">Iniciar Sesión</a></li>
+          <li><a href="login.html">Iniciar Sesión</a></li>
           <li><a href="shop.html">Shop</a></li>
         </ul>
     </nav>
-    <form action="">
+    <form action="" id="form" class="formu">
         <h1>
             Iniciar Sesión
         </h1>
-          <input type="text" name="usuario" placeholder="usuario" id="username">
-          <input type="password" name="contraseña" placeholder="contraseña" id="password">  
-          <input type="button" value="iniciar sesion" id="button" >
+          <input type="text" name="email" placeholder="email" id="email">
+          <input type="password" name="password" placeholder="Crear contraseña" id="password">  
+          <button type="submit" onclick="login()">Iniciar Sesión</button>
     </form>
     
 
-    <script src="login.js"></script>
+    <script src="sesion.js"></script>
 </body>
 </html>
