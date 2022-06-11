@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(guitar1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navegacion ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion a {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 100;
+  padding: 20px 5px;
+  text-decoration: none;
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.navegacion li {
+    flex: 4; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    
+    width: 320px;
+    height: 420px;
+    padding: 70px 30px;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    
+}
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  width: 100%; 
+    
+
+}
+h1 {
+    font-family: 'Poppins';
+    color: aliceblue;
+}
+p {
+    font-family: 'Poppins';
+    color: aliceblue;
+}
+button {
+    background-color: rgb(207, 50, 50);
+    width: 200px;
+    height: 50px;
+}
+.shop a {
+    font-family: 'Poppins' ;
+    font-variant: bold;
+    text-decoration: none;
+    color: #fff;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+form input[type="text"], form input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
