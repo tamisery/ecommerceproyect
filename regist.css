@@ -33,7 +33,9 @@ body {
 .formu {
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
+   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
