@@ -1,8 +1,20 @@
+const contenido = document.querySelector(".compra");
+const header = document.querySelector("#header");
+const footer = document.querySelector("#footer");
+
+const producto = [
+    {
+        nombre: ;
+    }
+]
+
+
+
 function login(){
 
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
-
+    console.log('email');
     const email1 = localStorage.getItem(email1);
     const password1 = localStorage.getItem(password1);
     
@@ -12,6 +24,8 @@ function login(){
     }else {
         alert("Email Invalido")
     }
+    console.dir('email');
+
 }
 
 function signup(){

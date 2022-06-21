@@ -40,6 +40,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
   width: 100%; 
+  margin-top: 80px;
     
 
 }
@@ -61,4 +62,38 @@ button {
     font-variant: bold;
     text-decoration: none;
     color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+}
+footer {
+    font-family: 'Poppins';
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    color: aliceblue;
+}
+@media screen and (min-width: 700px) {
+    header {
+        display: block;
+    }
+    .navegacion {
+        
+		width:100%;
+    }
+    .presentacion {
+        display: inline-block;
+        text-align: left;
+    }
+    .presentacion h2 {
+        text-align: center;
+    }
+    .shop {
+        display: inline-block;
+    }
+    .producto {
+        display: inline-block;
+    }
 }
